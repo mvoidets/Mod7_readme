@@ -69,18 +69,6 @@ function generateMarkdown(data) {
     ${data.problem}
 
   ## Lesson
-    ${data.lesson}
-
-  ## Install
-    ${data.install}
-
-  ## Contributor
-    ${data.contributor}
-
-  ## License
-    ${renderLicenseSection(data.licenses)}  
-
-
   `;
 }
 

@@ -1,33 +1,15 @@
 
   ## Title
-   Let's Create a README
+   Creating README file
 
   ## Description
-   A user will answer some questions related to their project, after answered a README file is created
+   A user will answer a series of questions pertaining to their project. Once the questions are answered a README file is created.
 
   ## Design
-    To help ease the pain of building a readme and to have consistant files
+    To help create consistant README files and have it automated.
 
   ## Problem
-    manually creating readme
+    Creating a README from scratch. Can now run the app.
 
   ## Lesson
-    coding with inquirer and node
-
-  ## Install
-    node index.js
-
-  ## Contributor
-    Michelle and Google
-
-  ## License
-    
-
-This project is licensed under the MIT,Apache,GPL license.
-
-![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-For more information, please visit [this link](https://github.com/mvoidets/readme_mod7).  
-
-
   
