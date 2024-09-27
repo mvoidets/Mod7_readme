@@ -56,7 +56,7 @@ For more information, please visit [this link](https://github.com/mvoidets/readm
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  ## Title
+   ## Title
    ${data.title}
 
   ## Description
@@ -69,6 +69,17 @@ function generateMarkdown(data) {
     ${data.problem}
 
   ## Lesson
+    ${data.lesson}
+
+  ## Install
+    ${data.install}
+
+  ## Contributor
+    ${data.contributor}
+
+  ## License
+    ${renderLicenseSection(data.licenses)}  
+
   `;
 }
 
