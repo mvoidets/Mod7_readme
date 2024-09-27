@@ -1,29 +1,29 @@
 
   ## Title
-   README creation
+   Let's Create a README
 
   ## Description
-   dfa
+   A user will answer some questions related to their project, after answered a README file is created
 
   ## Design
-    adfadsf
+    To help ease the pain of building a readme and to have consistant files
 
   ## Problem
-    adsfasdf
+    manually creating readme
 
   ## Lesson
-    adfasdf
+    coding with inquirer and node
 
   ## Install
-    asdfsadf
+    node index.js
 
   ## Contributor
-    adsfaf
+    Michelle and Google
 
   ## License
     
 
-This project is licensed under the MIT,Apache,GPL,BSD license.
+This project is licensed under the MIT,Apache,GPL license.
 
 ![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
