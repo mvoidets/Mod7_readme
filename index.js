@@ -28,16 +28,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "problem",
-        message: "What problem does this solve?",
-    },
-    {
-        type: "input",
-        name: "lesson",
-        message: "What did you learn?",
-    },
-    {
-        type: "input",
         name: "install",
         message: "How do you run this project?",
     },
@@ -52,6 +42,20 @@ const questions = [
         message: "Select license type(s)",
         choices: ["MIT", "Apache", "GPL", "BSD"]
     },
+    {
+        type: "input",
+        name: "github",
+        message: "What is your GitHub username?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?",
+    },
+
+
+
+
 ];
 
 

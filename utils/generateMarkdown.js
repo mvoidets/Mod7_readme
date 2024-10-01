@@ -36,51 +36,72 @@ function renderLicenseLink(license) {
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license) {
-    const badge = renderLicenseBadge(license);
-    const link = renderLicenseLink(license);
-    return `
-
-This project is licensed under the ${license} license.
+// If there are no licenses, return an empty string
+function renderLicenseSection(licenses) {
+  if (Array.isArray(licenses) && licenses.length > 0) {
+    return licenses.map(license => {
+      const badge = renderLicenseBadge(license);
+      const link = renderLicenseLink(license);
+      return `This project is licensed under the ${license} license.
 
 ![License Badge](${badge})
 
-For more information, please visit [this link](https://github.com/mvoidets/readme_mod7).`;
+[Learn more about ${license} license](${link})
+
+`;
+    }).join('\n');
   } else {
-    return '';
+    return 'This is not licensed';
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-   ## Title
+  # Title
    ${data.title}
 
+  ## Table of Contents
+
+  - [Description](#description)
+  - [Design](#design)
+  - [Install](#install)
+  - [Contributor](#contributor)
+  - [License](#license)
+  - [Questions](#questions)
+
+
   ## Description
+
    ${data.description}
 
   ## Design
+
     ${data.design}
 
-  ## Problem
-    ${data.problem}
-
   ## Lesson
+
     ${data.lesson}
 
   ## Install
+
     ${data.install}
 
   ## Contributor
+
     ${data.contributor}
 
   ## License
-    ${renderLicenseSection(data.licenses)}  
 
-  `;
+    ${renderLicenseSection(data.license)}  
+
+  ### Questions
+
+  If you have any questions, please contact me at: [${data.email}] (mailto:mvoidets@yahoo.com). \n
+  My GIThub profile is [${data.github}](https://guthub.com/${data.github}).\n
+  Thank you for visiting my repository!`;
+
+  
 }
 
 export default generateMarkdown;

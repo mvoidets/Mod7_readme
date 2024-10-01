@@ -1,32 +1,45 @@
 
-   ## Title
-   Let's create README file!
+  # Title
+   Automating README creation
+
+  ## Table of Contents
+
+  - [Description](#description)
+  - [Design](#design)
+  - [Install](#install)
+  - [Contributor](#contributor)
+  - [License](#license)
+  - [Questions](#questions)
+
 
   ## Description
-   A user will be asked several questions regarding their project. Once answered a README.md file will get created.
+
+   THis will aske a user a series of questions and then build out a professional README
 
   ## Design
-    To help automate the README creation
 
-  ## Problem
-    Inconsistant and missing sections of README
+    Consistancy and easy
 
   ## Lesson
-    Coding in node and using inquierer
+
+    undefined
 
   ## Install
+
     node index.js
 
   ## Contributor
-    Michelle
+
+    mvoidets
 
   ## License
-    
 
-This project is licensed under the MIT license.
+    This is not licensed  
 
-![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ### Questions
 
-For more information, please visit [this link](https://github.com/mvoidets/readme_mod7).  
+  If you have any questions, please contact me at: [mvoidets@yahoo.com] (mailto:mvoidets@yahoo.com). 
 
-  
+  My GIThub profile is [mvoidets](https://guthub.com/mvoidets).
+
+  Thank you for visiting my repository!
