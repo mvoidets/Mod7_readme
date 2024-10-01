@@ -79,10 +79,6 @@ function generateMarkdown(data) {
 
     ${data.design}
 
-  ## Lesson
-
-    ${data.lesson}
-
   ## Install
 
     ${data.install}
@@ -93,12 +89,12 @@ function generateMarkdown(data) {
 
   ## License
 
-    ${renderLicenseSection(data.license)}  
+    ${renderLicenseSection(data.licenses)}  
 
   ### Questions
 
   If you have any questions, please contact me at: [${data.email}] (mailto:mvoidets@yahoo.com). \n
-  My GIThub profile is [${data.github}](https://guthub.com/${data.github}).\n
+  My GitHub profile is [${data.github}](https://guthub.com/${data.github}).\n
   Thank you for visiting my repository!`;
 
   

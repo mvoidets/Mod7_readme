@@ -1,6 +1,6 @@
 
   # Title
-   Automating README creation
+   Let's automate the README creation
 
   ## Table of Contents
 
@@ -14,15 +14,11 @@
 
   ## Description
 
-   THis will aske a user a series of questions and then build out a professional README
+   A user will answer a series of questions. Once done they run the app and the README file is created. 
 
   ## Design
 
-    Consistancy and easy
-
-  ## Lesson
-
-    undefined
+    To help automate the process with consistant results, not missing any sections. 
 
   ## Install
 
@@ -30,7 +26,7 @@
 
   ## Contributor
 
-    mvoidets
+    mvoidets and Google
 
   ## License
 
@@ -40,6 +36,6 @@
 
   If you have any questions, please contact me at: [mvoidets@yahoo.com] (mailto:mvoidets@yahoo.com). 
 
-  My GIThub profile is [mvoidets](https://guthub.com/mvoidets).
+  My GitHub profile is [mvoidets](https://guthub.com/mvoidets).
 
   Thank you for visiting my repository!
